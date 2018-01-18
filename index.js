@@ -18,20 +18,12 @@ function sayHiToGrandma(string) {
   var whatWasSaid = string
   if (whatWasSaid.toLowerCase() === whatWasSaid) {
     return 'I can\'t hear you!';
+  }
   else if (whatWasSaid.toUpperCase() === whatWasSaid) {
     return 'YES INDEED!'
   }
-}
-
-function sayHiToGrandma(string) {
-  var whatWasSaid = string
-  
-  }
-}
-
-function sayHiToGrandma(string) {
-  var whatWasSaid = string
-  if (whatWasSaid === "I love you, Grandma.") {
+  else if (whatWasSaid === "I love you, Grandma.") {
     return "I love you, too."
   }
 }
+

@@ -21,3 +21,10 @@ function sayHiToGrandma(string) {
   }
 }
 
+function sayHiToGrandma(string) {
+  var whatWasSaid = string
+  if (whatWasSaid.toUpperCase() === whatWasSaid) {
+    return "YES INDEED!"
+  }
+}
+
